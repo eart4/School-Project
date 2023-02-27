@@ -1,27 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./style.css" />
-  
-    
 
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./reset.css" />
+  <link rel="stylesheet" href="./style.css" />
+
+
+
+</head>
+
 <body>
 
 
 
   <header class="header">
-    <a href="" class="menu-btn">
-      <span></span>
-    </a>
+    <div href="" class="menu-btn">
+      <span class="first"></span>
+      <span class="second"></span>
+      <span class="third"></span>
+    </div>
+    <nav class="header__nav">
+      <ul class="header__nav-ul">
+        <a class="nav-a">HTML</a>
+        <a class="nav-a">FrontEnd</a>
+        <a class="nav-a">CSS</a>
+        <a class="nav-a">JavaScript</a>
+        <a class="nav-a">Оптимизация</a>
+      </ul>
+    </nav>
+
   </header>
 
- 
+
+  <section class="theme">
+    <div class="container">
+      <h1 class="theme__title">
+        <span>Проект по теме:</span> <br>Разработка сайтов <br> HTML, CSS, JavaScript
+      </h1>
+
+      <h2 class="theme__second-title">
+
+        Выполнил: <br>
+        ученик 9 Б класса <br>
+        Назгашвили Филипп <br>
+        Руководитель: <br>
+        учитель информатики <br>
+        Константинова <br>
+        Анна Владимировна <br>
+
+      </h2>
+    </div>
+
+  </section>
+
+
+  <section class="FronEnd">
+    <div class="main__title">
+      <h2>Что же такое FrontEnd разработка?</h2>
+    </div>
+
+
+    <div class="container">
+      <div class="FrontEnd__content">
+      <p class="FrontEnd__content-p">Существует всего два направления в программировании. Это FrontEnd и BackEnd.
+        Сегодня я вам расскажу о FrontEnd разработке.
+        FrontEnd-разработка — это создание пользовательского интерфейса на клиентской стороне веб‑сайта или приложения.
+        Это всё, что видит пользователь, когда открывает веб-страницу, и с чем он взаимодействует: кнопки, баннеры и
+        анимация.
+        В процессе работы фронтендер взаимодействует с дизайнерами, бэкенд-разработчиками и UX-аналитиками.
+        Чтобы понять, что собой представляет фронтенд, откройте страницу любого сайта — вы увидите интерфейс. Щёлкните
+        правой кнопкой мыши по странице, выберите пункт «Исходный код страницы», и перед вами откроется её исходный код.
+      </p>
+      <img src="./images/phone_af62204878d4eba3a075419b219ff11849d0bbc3.png" alt="" class="FrontEnd__content-img">
+    </div>
+    </div>
+
+
+
+  </section>
+
+  <section class="VSCode">
+    <div class="main__title">
+      <h2>Редактор кода для FrontEnd разработки.</h2>
+    </div>
+
+
+    <div class="container">
+      <div class="VSCode__content">
+          <img src="./images/hero.png" alt="" class="VSCode__img"> 
+
+          <p class="VSCode__p">
+Существует много различных инструментов для написания кода FrontEnD разработки. Например: IntelliJ IDEA,VSCode,Sublime Text, Atom и т.п. Но сегодня я расскажу вам только об одном, а именно о VISUAL STUDIO CODE.  
+Это один из самых популярных и простых редакторов кода для разработки полноценного сайта, созданный компанией Microsoft для MacOs, Windows и Linux. Он создан для разработки веб и облачных приложений. Включает в себя отладчик, инструменты для работы с Git, подсветку синтаксиса, IntelliSense и средства для рефакторинга. Имеет широкие возможности для кастомизации.
+          </p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="languages">
+
+    <div class="main__title">
+      <h2>Какие же языки нужны для создания собственного сайта?</h2>
+    </div>
+    <div class="container">
+      <h2 class="language__title">HTML</h2>
+       <div class="languahes__content">
+          <p class="language__p">
+            HTML язык гипертекстовой разметки — стандартизированный язык гипертекстовой разметки документов для просмотра веб-страниц в браузере. Веб-браузеры получают HTML документ от сервера по протоколам HTTP/HTTPS или открывают с локального диска, далее интерпретируют код в интерфейс, который будет отображаться на экране монитора.
+            HTML (HyperText Markup Language) говорит браузеру, каково содержание страницы, например, «заголовок», «параграф», «список», «элемент списка».
+          </p>
+
+          <img src="./images/html.png" alt="" class="language__img">
+       </div>
+
+       <h2 class="language__title">CSS</h2>
+
+       <div class="languahes__content">
+        
+        <p class="language__p">
+          CSS каскадные таблицы стилей — формальный язык описания внешнего вида документа (веб-страницы), написанного с использованием языка разметки (чаще всего HTML или XHTML). Также может применяться к любым XML-документам, например, к SVG или XUL.
+          CSS (Cascading Style Sheets) говорит браузеру, как отображать элементы, например, «после первого параграфа отступ в 20 пикселей» или «весь текст в элементе body должен быть темно-серым и написан шрифтом Verdana».
+
+
+        </p>
+
+        <img src="./images/CSS.png" alt="" class="language__img">
+     </div>
+
+     <h2 class="language__title">JavaScript</h2>
+     <div class="languahes__content">
+        <p class="language__p">
+          JavaScript — мультипарадигменный язык программирования. Поддерживает объектно-ориентированный, императивный и функциональный стили. Является реализацией спецификации ECMAScript (стандарт ECMA-262).
+          
+JavaScript говорит браузеру, как реагировать на некоторые взаимодействия, используя легкий язык программирования.
+
+        </p>
+
+        <img src="./images/js.png" alt="" class="language__img">
+     </div>
+    </div>
+   
+    
+  </section>
+
+
+  <section class="optimization">
+    <div class="main__title">
+      <h2>Оптимизация сайта</h2>
+    </div>
+  </section>
+
   <script src="./main.js"></script>
 </body>
+
 </html>
